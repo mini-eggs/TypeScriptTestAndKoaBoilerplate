@@ -1,0 +1,30 @@
+{
+  "name": "tsc-koa-tdd",
+  "version": "1.0.0",
+  "description": "A simple TDD starter for TypeScript and Koa.",
+  "author": "Evan M Jones <evanjones4040@gmail.com> (https://evanjon.es/)",
+  "license": "MIT",
+  "keywords": ["Koa", "TypeScript", "TDD", "Starter", "Boilerplate"],
+  "main": "buid/main.js",
+  "scripts": {
+    "dev": "backpack -r dotenv/config",
+    "build": "backpack build",
+    "test": "jest --config --watchAll"
+  },
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-router": "^7.3.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.0.1",
+    "@types/koa": "^2.0.43",
+    "@types/koa-router": "^7.0.27",
+    "@types/supertest": "^2.0.4",
+    "backpack-core": "^0.5.0",
+    "jest": "^22.1.2",
+    "supertest": "^3.0.0",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "typescript-babel-jest": "^1.0.5"
+  }
+}
